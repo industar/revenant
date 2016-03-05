@@ -364,6 +364,16 @@ h4 {
     text-align: left;
 }
 
+.col-xs-3__text__hr {
+    height:14px; /* specify a height for this hr */
+    color: #bebebe;
+    padding-left: 20px;
+}
+
+.col-xs-3__text__hr:after {
+    content:"..........................";
+    letter-spacing: 4px;
+}
 
 
 .bordered-block__fafafa .col-xs-3 h5 {
@@ -371,7 +381,7 @@ h4 {
     font-family: "Museo Sans Cyrl 500", sans-serif;
     font-size: 15px;
     line-height: 24px;
-    padding: 8px 0 24px 20px;
+    padding: 8px 0 0 20px;
 }
 
 .bordered-block__fafafa .col-xs-3 p {
@@ -380,7 +390,7 @@ h4 {
     font-family: "Museo Sans Cyrl 300", sans-serif;
     font-size: 14px;
     line-height: 24px;
-    padding-left: 20px;
+    padding: 13px 0 10px 20px;
 }
 
 .bordered-block__f7f8fa .col-xs-6 {
